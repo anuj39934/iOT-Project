@@ -142,6 +142,10 @@ LINKS :
 Battery : https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=battery+cr2477&tag=yhooinkenshoo-21&ascsubtag=b2f2a42f-ea75-4744-807a-b523e21d0331
 Beacon App link : https://community.estimote.com/hc/en-us/articles/210530428-Getting-started-with-Estimote-beacons-and-APIs
 proximi.io - for indoor navigational app - https://portal.proximi.io/#/app/places
+Proximi.io Management App - https://play.google.com/store/apps/details?id=io.proximi.management&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1
+Estimote - https://developer.estimote.com/indoor/map-your-location/
+ - https://developer.estimote.com/#indoor-location
+ - https://community.estimote.com/hc/en-us/articles/210530428-Getting-started-with-Estimote-beacons-and-APIs
 for current latitude and longitude -  https://www.gps-coordinates.net/
 
 
