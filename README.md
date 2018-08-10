@@ -82,6 +82,71 @@ Requirements :
 IDEA - Multilanguage support in app.
   - If your will keep on standing at a particular location for more than particular
  time we can show him other info.
+ ---------------------------------------------------------------------------------------------------------------------------------------
+ ADDIION ON - 10/8/2018
+ TITLE : Skybeacon/Proximity app study
+ HOW TO CONFIGURE BEACONS :
+1 – Before configure you must provision it to set frame type, broadcast interval and power level.
+2 – You must use software provided by your beacon manufacturer to do this.
+3 – To advertise a data or URL attachment you can use Eddystone-UID or Eddystone-EID frame types.
+	URL – Eddystone-UID
+•	Lets you advertise a URL(http/https)
+•	Designed to interact with physical web
+•	They don’t support app intent or app install URLS
+•	When using this frame you can register the beacon with google.
+•	Nearby notifications and physical web require HTTPS URLS.
+	Frame – Eddystone-EID
+•	Lets you decide who can access your beacons
+•	Access can be handled using encryption key.
+
+4 – With E-UID or E-EID :
+•	Associate one or more data or URL attachments with a beacon.
+•	Remotely update beacons attachments.
+•	Monitor beacon using beacons dashboard.
+5 – Register your beacon using Beacon tools app.
+•	To register the beacon – launch the app and select google developer project you want to use.
+o	Position your device near the beacon, you will see list of beacons.
+o	Select beacon you want to register and then tap register beacon.
+o	The beacon should come in registered tab
+6 – Add an attachment 
+•	Use Google beacon dashboard (recommended) : 
+•	Use beacon tools app
+•	Use beacon proximity API.
+USE GOOGLE BEACON DASHBOARD :
+
+
+
+SKYLAB BEACONS :
+VERSION – VG01
+1.	Bluetooth chip -  nRF51822 Bluetooth chip
+2.	Battery – CR2477 button battery
+3.	VG01 internal PCB board has a burning port , a pair of UART serial port.
+4.	Docs link - http://www.skylabmodule.com/beacon-virgo/
+Features : 
+1.	Low power consumption
+2.	Small, lightweight
+3.	Advertising range upto 70m
+4.	RoHS compliance(lead free)
+5.	FCC , CE compliance
+Application
+1.	Indoor positioning
+2.	Information push
+3.	Identification
+4.	WeChat shake
+MAPPING YOUR VENUE ON MAP : 
+-	ESTIMOTE – guide for using and development - https://developer.estimote.com/indoor/map-your-location/
+-	Quora link - https://www.quora.com/I-have-ordered-BLE-Bluetooth-beacons-with-Eddystone-for-Android-to-develop-an-indoor-navigation-application-What-should-I-do-next-Im-confused-on-how-to-make-a-map-for-my-library-and-how-to-integrate-it-with-beacons-Can-anyone-help-me-or-suggest-any-ideas
+-	Positioning link - https://proximi.io/
+-	
+LINKS :
+Battery : https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=battery+cr2477&tag=yhooinkenshoo-21&ascsubtag=b2f2a42f-ea75-4744-807a-b523e21d0331
+Beacon App link : https://community.estimote.com/hc/en-us/articles/210530428-Getting-started-with-Estimote-beacons-and-APIs
+
+
+
+
+
+
 
 
 
