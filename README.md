@@ -141,6 +141,9 @@ MAPPING YOUR VENUE ON MAP :
 LINKS :
 Battery : https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=battery+cr2477&tag=yhooinkenshoo-21&ascsubtag=b2f2a42f-ea75-4744-807a-b523e21d0331
 Beacon App link : https://community.estimote.com/hc/en-us/articles/210530428-Getting-started-with-Estimote-beacons-and-APIs
+proximi.io - for indoor navigational app - https://portal.proximi.io/#/app/places
+for current latitude and longitude -  https://www.gps-coordinates.net/
+
 
 
 
